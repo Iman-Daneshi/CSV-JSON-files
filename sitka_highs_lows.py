@@ -27,7 +27,7 @@ ax.plot(dates, highs, c='red', alpha=0.5)
 ax.plot(dates, lows, c='blue', alpha=0.5)
 plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 # format plot
-plt.title('daily high and low tempreture - 2018', fontsize = 24)
+plt.title('Daily high and low temperatures - 2018\nSitka, Alaska', fontsize = 24)
 plt.xlabel('', fontsize = 16)
 fig.autofmt_xdate()       # draws the date labels diagonally to prevent them from overlapping
 plt.ylabel('tempreture (F)', fontsize = 16)
